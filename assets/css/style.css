@@ -1,25 +1,42 @@
 h1 {
-    color: rgb(226, 43, 113);
+    
 }
 p {
-    color:red;
+    
   }
 
 ul {
-    color: rgb(0, 0, 0);
+    
     font-family: roboto;
     font-style: italic;
  
  
 }
 ul.hej {
-    color: rebeccapurple; 
-    background-color: burlywood;
+    
 }
 p.bildtext {
-    color:rgb(0, 255, 213);
+    
   }
-body {font-weight: 900;font-family:Roboto;}
+body {
+  font-weight: 400;
+  font-family:Roboto;
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: rgb(49,49,49);
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
 
 a {font-weight: 900; font-size: larger; ;}
 i.namn {font-style: italic;}    

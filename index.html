@@ -6,11 +6,34 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">    
 <html>
     <title>Lord Sjöbba Sjöbbas Den</title>
-    <head><Center><h1>Noah Sjöberg</h1></Center></head>
+
+    <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+        function darkMode() {
+            let element = document.body;
+            let content = document.getElementById("DarkModetext");
+            element.className = "dark-mode";
+            content.innerText = "Dark Mode is ON";
+        }
+        function lightMode() {
+            let element = document.body;
+            let content = document.getElementById("DarkModetext");
+            element.className = "light-mode";
+            content.innerText = "Dark Mode is OFF";
+        }
+    </script>
+
+    
+<head><Center><h1>Noah Sjöberg</h1></Center></head>
 
 </html>
 <img src="Bilder/donny-benét.avif" alt="" width="1000">
 <body>
+
+
+
     
 
 <hr>
@@ -24,14 +47,13 @@
 <ul>-Hur jag kan göra en liten slider och kanske till och med ordna innehåll efter datum?</ul>
 <ul class="hej">- Hur jag med få medel, icke-grandiös design får sidan att se mindre 90-tal och mer modern, (Läs typ, Github?)</ul>
 
-<p class="bildtext">Hej <i>Robin!</i> Fint att du är här</p>
+
 <p>Här finns mina spellistor:</p>
 <h5><a href="https://www.plantinavia.se/avenbokshack/avenbok/?attribute_pa_wortel=kruka&attribute_pa_kwaliteit=light&attribute_pa_hoogte=60&attribute_pa_dichtheid=extra-dicht&variation_id=28995&quantity=100&gc_id=20837628885&gad_source=1&gclid=Cj0KCQiAy9msBhD0ARIsANbk0A9DJDfGtrSo9E2OYk89X4MqDI99e1OkIpj9t8I1yMGu9tzu_4i-Wz8aAtv2EALw_wcB">For plants & people </a></h5>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/05UIuOpqnhxvNp9eXh1RoY?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/05UIuOpqnhxvNp9eXh1RoY?utm_source=generator&theme=0" width="600px" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-<p>tjenare läget va</p>
+
 </body>
 
 
-<p>Hej, Hur är läget <i class="namn">Sebastian</i></p>
