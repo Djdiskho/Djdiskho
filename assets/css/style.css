@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(226, 43, 113);
+}
+p {
+    color:red;
+  }
+
+ul {
+    color: white; 
+    background-color: black;
+    font-style: oblique;
+}
+ul.hej {
+    color: rebeccapurple; 
+    background-color: burlywood;
+}
+p.bildtext {
+    color:rgb(0, 255, 213);
+  }
