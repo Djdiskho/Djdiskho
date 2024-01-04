@@ -22,19 +22,19 @@ body {
   font-weight: 400;
   font-family:Roboto;
   padding: 25px;
-  background-color: white;
-  color: black;
+  background-color: rgb(242, 242, 242);
+  color: rgb(49,49,49);
   font-size: 25px;
 }
 
 .dark-mode {
   background-color: rgb(49,49,49);
-  color: white;
+  color: rgb(242, 242, 242 )
 }
 
 .light-mode {
-  background-color: white;
-  color: black;
+  background-color: rgb(242, 242, 242);
+  color: rgb(49,49,49);
 }
 
 
