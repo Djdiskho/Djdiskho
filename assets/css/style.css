@@ -17,3 +17,6 @@ ul.hej {
 p.bildtext {
     color:rgb(0, 255, 213);
   }
+body {font-weight: 900;}
+
+a {font-weight: 900; font-size: larger; ;}
