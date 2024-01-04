@@ -25,18 +25,23 @@ body {
   background-color: rgb(242, 242, 242);
   color: rgb(49,49,49);
   font-size: 25px;
+  width: 800px;
+  vertical-align: middle;
+  margin: 0 auto; 
 }
 
 .dark-mode {
   background-color: rgb(49,49,49);
   color: rgb(242, 242, 242 )
-}
+           }
 
 .light-mode {
   background-color: rgb(242, 242, 242);
   color: rgb(49,49,49);
-}
+            }
 
 
-a {font-weight: 900; font-size: larger; ;}
+a {font-weight: 900;
+   font-size: larger; ;
+  }
 i.namn {font-style: italic;}    
