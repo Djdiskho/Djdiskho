@@ -6,9 +6,11 @@ p {
   }
 
 ul {
-    color: white; 
-    background-color: black;
-    font-style: oblique;
+    color: rgb(0, 0, 0);
+    font-family: roboto;
+    font-style: italic;
+ 
+ 
 }
 ul.hej {
     color: rebeccapurple; 
@@ -17,6 +19,7 @@ ul.hej {
 p.bildtext {
     color:rgb(0, 255, 213);
   }
-body {font-weight: 900;}
+body {font-weight: 900;font-family:Roboto;}
 
 a {font-weight: 900; font-size: larger; ;}
+i.namn {font-style: italic;}    
