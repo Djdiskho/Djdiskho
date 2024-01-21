@@ -17,3 +17,15 @@ ul.hej {
 p.bildtext {
     color:rgb(0, 255, 213);
   }
+  time{
+    border: 1px solid black;
+    margin-top: 30px;
+    position:absolute;
+    float: left;
+
+}
+time.tid {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
